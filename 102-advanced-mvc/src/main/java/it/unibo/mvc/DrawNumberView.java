@@ -31,8 +31,8 @@ public interface DrawNumberView {
     void result(DrawResult res);
 
     /**
-     * Informs the Users that there was some kind of error
-     * 
+     * Informs the Users that there was some kind of error.
+     *
      * @param message the description of the error
      */
     void displayError(String message);
